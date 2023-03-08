@@ -1,0 +1,151 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #333;
+    margin-right:auto;
+}
+
+  header nav ul li a {
+    font-size: 1.25rem;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 1rem;
+    float: right;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }  
+  
+  header nav ul li a:hover {
+    color: #ff7f50;
+  }
+  
+  #header-image img {
+    width: 100%;
+    max-height: 500px;
+    display: block;
+  }
+  
+  section h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff7f50;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  section ul li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+          /* the fuck this no work*/
+  about {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about .paragraph-1 {
+    width: 50%;
+    float: left;
+  }
+  
+  .about .paragraph-2 {
+    width: 50%;
+    float: right;
+  }
+
+  .aftercare {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+          /* the fuck this no work*/
+  section portfolio-images {
+    justify-content: flex-start;
+  }
+  
+  section form label, section form input[type="submit"] {
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  section form input[type="text"], section form input[type="email"], section form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    cursor: text;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  /* For devices with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+  /* Adjust font sizes */
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+  /* Make the header buttons stack vertically */
+  header ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  /* Adjust the width and alignment of the form inputs */
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  /* Hide the photos section */
+  #photo-section {
+    display: none;
+  }
+}
+
+/* For devices with a maximum width of 480px */
+@media only screen and (max-width: 480px) {
+  /* Adjust font sizes further */
+  h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+  
